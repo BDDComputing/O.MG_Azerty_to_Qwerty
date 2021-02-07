@@ -16,8 +16,8 @@ def FR_TO_US(line):
 	#layout_2 = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-:/._!@#$%^&*()'
 	##############################################################################################
 	#MacOS Layout
-	layout_1 = """ qbcdefghijkl;noparstuvzxywQBCDEFGHIJKL:NOPARSTUVZXYW!@#$%^&*()=.><+185-/\"'_ """
-	layout_2 = """ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-:/._&!()=%ù° """
+	layout_1 = """ qbcdefghijkl;noparstuvzxywQBCDEFGHIJKL:NOPARSTUVZXYW!@#$%^&*()=.><+185-/\" """
+	layout_2 = """ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-:/._&!()=% """
 	##############################################################################################
 	my_dict = dict(zip(layout_2, layout_1))
 	line = line.replace('\n', '')

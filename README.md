@@ -2,4 +2,4 @@
 # Usage : 
 #
 # In action : 
-![](azerty_to_qwerty.gif)
+![](omg_azerty_to_qwerty.gif)
